@@ -1,0 +1,23 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+h2{
+  margin-right:400px;
+}
+hr{
+  border-color: black;
+  border-width: 1px;
+}
+.p1{
+ display:inline;
+ 
+ 
+}
+.header{
+  margin-top:20px;
+  margin-bottom:20px;
+   
+}
