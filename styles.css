@@ -5,7 +5,7 @@ body{
 img{
   margin-left: 3em;
   margin-top:3em;
-  height: 17vh;
+  height: auto;
   width: 15vw;
   vertical-align: text-bottom;
 
