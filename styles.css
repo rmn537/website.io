@@ -2,14 +2,16 @@ body{
   padding: 25px;
   background-color:#ffffff;
 }
+.img{
+  width: 20vw;
+  height: 20vh;
+}
 img{
   margin-left: 3em;
   margin-top:3em;
-  height: 15vh;
-  width: 17vw;
+  height: auto;
+  width: auto;
   vertical-align: text-bottom;
-
-
 }
 .p1{
   display: inline-block; 
