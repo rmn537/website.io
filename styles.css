@@ -2,6 +2,12 @@ body{
   padding: 25px;
   background-color:#ffffff;
 }
+header img:{
+  height: 15vh;
+  width:15vw;
+
+}
+
 .title {
 	color: #5C6AC4;
 }
