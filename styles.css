@@ -14,7 +14,8 @@ img{
 .p1{
   display: inline-block; 
   margin-left: 3em;
- position: static
+  position: static;
+  padding-bottom: 2em;
   
 }
 
