@@ -18,7 +18,12 @@ img{
   margin-left: 3em;
   position: static;
   padding-bottom: 2em;
-  
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 
 .title {
