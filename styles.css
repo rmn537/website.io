@@ -2,27 +2,30 @@ body{
   padding: 25px;
   background-color:#ffffff;
 }
-header img{
-  height: 10em;
-  width: 10em;
+img{
+  height: 15vh;
+  width: 15vw;
+  vertical-align: text-bottom;
 
+}
+.p1{
+  display: inline-block; 
+  margin-left: 2em;
+ position: static
+  
 }
 
 .title {
-	color: #5C6AC4;
+  color: #5C6AC4;
 }
 h2{
-  margin-right: 50em;
+ font-size: 82px;
 }
 hr{
   border-color: black;
   border-width: 1px;
 }
-.p1{
- display:inline;
- 
- 
-}
+
 .header{
-  display:inline-block;
+ 
 }
