@@ -1,4 +1,6 @@
 body{
+  height:100vh;
+  width:110vw;
   padding: 25px;
   background-color:#ffffff;
   overflow-x: hidden;
