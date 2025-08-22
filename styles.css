@@ -1,6 +1,7 @@
 body{
   padding: 25px;
   background-color:#ffffff;
+  overflow-x: hidden;
 }
 .whole{
   width:100%;
