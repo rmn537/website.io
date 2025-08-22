@@ -6,6 +6,14 @@ body{
   width:100%;
   height: 100vh;
 }
+.header{
+  height: 200px;
+  width:100vw;
+  display: flex;
+  flex-direction:row;
+  margin-bottom:30px;
+  
+}
 .img{
   width: 10em;
   height: 10em;
@@ -19,58 +27,97 @@ img{
 }
 .p1{
   display: inline-block; 
-  margin-left: 3em;
+  margin-left: 4em;
   position: static;
   padding-bottom: 2em;
+  font-size: 82px;
+
 }
 .nav{
   margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+}
+span{
+  font-size:28px;
+}
+.article1{
+  display: flex;
+  height:100px;
+  width: 70%;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 100px;
+  margin:0 auto;
 }
 
 .title {
   color: #5C6AC4;
 }
-h2{
-  font-size: 82px;
-}
-span{
-  font-size:28px;
-}
-hr{
-  border-color: black;
-  border-width: 1px;
-}
-aside{
+.aside{
   margin-top: 100px;
   height:150px;
   width: 95vw;
   background-color:#a6bc71;
   border-radius: 20px;
 }
-aside > h5{
+.aside > h5{
   font-size: 25px;
   font-weight:normal;
   position: absolute;
   margin-left: 3em;
+  color:white;
 }
-aside > h4{
+.aside > h4{
   position: absolute;
   font-size: 28px;
   font-weight: normal;
   left:1100px;
   margin-left:10px;
   margin-top: 80px;
+}
+.article2{
+  height:500px;
+  width: 90vw;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
   
 }
-
-.header{
-  height: 200px;
-  width:100vw;
-  display: flex;
-  flex-direction:row;
-  margin-bottom:30px;
+.article2 > h2{
+  height: 100px;
+  width: 75%;
+  font-weight:normal;
+  text-align: center;
+  font-size: 100px;
 }
+.story{
+  height:100px;
+  width: 65vw;
+  background-color:#a6bc71;
+  border-radius: 20px;
+  color:white;
+  font-size: 86px;
+  text-align:left;
+  text-indent: 100px;
+}
+.true_article{
+  margin-left: 10em;
+  text-indent: 20px;
+  height:250px;
+  width: 95vw;
+  padding-left:20px; 
+  margin-bottom: 100px;
+}
+footer{
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#a6bc71;
+  height:30vh;
+  width: 100%;
+}
+
