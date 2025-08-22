@@ -1,16 +1,15 @@
 body{
-  height:100vh;
-  width:100vw;
   padding: 25px;
   background-color:#ffffff;
+  overflow-x: hidden;
 }
 .whole{
-  width:100vw;
+  width:100%;
   height: 100vh;
 }
 .header{
   height: 200px;
-  width:100vw;
+  width:100%;
   display: flex;
   flex-direction:row;
   margin-bottom:30px;
@@ -41,7 +40,7 @@ img{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
+}  
 span{
   font-size:28px;
 }
@@ -49,7 +48,7 @@ span{
   display: flex;
   height:100px;
   width: 70%;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
   padding-left: 100px;
   margin:0 auto;
@@ -60,10 +59,12 @@ span{
 }
 .aside{
   margin-top: 100px;
+  margin-left: 20px;
   height:150px;
-  width: 95vw;
+  width: 95%;
   background-color:#a6bc71;
   border-radius: 20px;
+  position: relative;
 }
 .aside > h5{
   font-size: 25px;
@@ -76,13 +77,13 @@ span{
   position: absolute;
   font-size: 28px;
   font-weight: normal;
-  left:1100px;
-  margin-left:10px;
-  margin-top: 80px;
+  right:3em;
+  bottom: 1em;
+  margin:0;
 }
 .article2{
   height:500px;
-  width: 90vw;
+  width: 90%;
   display: flex;
   align-items: center; 
   justify-content: center; 
@@ -99,27 +100,29 @@ span{
   height:100px;
   width: 65vw;
   background-color:#a6bc71;
-  border-radius: 20px;
+  border-radius: 10px;
   color:white;
   font-size: 86px;
   text-align:left;
-  text-indent: 100px;
+  text-indent: 20px;
 }
 .true_article{
-  margin-left: 5em;
+  margin-left: 3em;
   text-indent: 20px;
   height:250px;
-  width: 95vw;
+  width: 90%;
   padding-left:20px; 
   margin-bottom: 100px;
 }
 footer{
+  margin-top: 500px;
   padding: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color:#a6bc71;
   height:30vh;
-  width: 100vw;
+  width:100%;
 }
+
 
